@@ -1,0 +1,21 @@
+.list-container {
+  min-height: 100vh;
+}
+
+.main-title {
+  font-family: 'Cinzel', serif;
+  color: #cc3333;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.title-separator {
+  height: 2px;
+  width: 150px;
+  margin: 0 auto;
+  background: #cc3333;
+}
+
+.text-crimson {
+  color: #cc3333 !important;
+}

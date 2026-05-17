@@ -1,0 +1,380 @@
+[
+  {
+    "name": "Bárdidos",
+    "sourceBook": "El Anillo Único 2ª Edición (Básico)",
+    "blessing": {
+      "title": "Coraje Indomable",
+      "text": "Cuando haces una tirada de habilidad usando una de tus habilidades favorecidas, si sacas un resultado igual a 6 en el dado de proeza, obtienes un éxito automático, sin importar el nivel de dificultad."
+    },
+    "shadowPath": {
+      "title": "La maldición del dragón",
+      "text": "Aquellos que sucumben a la sombra de esta senda son consumidos por el ansia de tesoros y la codicia."
+    },
+    "standardOfLiving": "Próspero",
+    "attributesTable": [
+      { "roll": 1, "strength": 5, "heart": 7, "mind": 2 },
+      { "roll": 2, "strength": 4, "heart": 7, "mind": 3 },
+      { "roll": 3, "strength": 5, "heart": 6, "mind": 3 },
+      { "roll": 4, "strength": 4, "heart": 6, "mind": 4 },
+      { "roll": 5, "strength": 5, "heart": 5, "mind": 4 },
+      { "roll": 6, "strength": 6, "heart": 6, "mind": 2 }
+    ],
+    "derivedStats": {
+      "endurance": "Fuerza + 20",
+      "hope": "Corazón + 8",
+      "parry": "Mente + 12"
+    },
+    "skills": {
+      "alentar": 2,
+      "atletismo": 1,
+      "alerta": 0,
+      "explorar": 1,
+      "cantar": 1,
+      "cortesia": 2,
+      "cazar": 1,
+      "viajar": 1,
+      "perspicacia": 1,
+      "curar": 1,
+      "impresionar": 2,
+      "guerrear": 2,
+      "persuadir": 2,
+      "sigilo": 0,
+      "inspeccionar": 1,
+      "acertijos": 0,
+      "saber": 0,
+      "oficio": 1
+    },
+    "favoredSkillsChoices": "Elige dos habilidades de la lista de tus habilidades de cultura.",
+    "combatProficiencies": {
+      "1": "Arcos o Espadas",
+      "2": "Una competencia de combate a elegir"
+    },
+    "distinctiveFeatures": [
+      "Altivo", "Audaz", "Dedicado", "Elocuente", "Fiero", "Generoso", "Orgulloso", "Valeroso"
+    ],
+    "languagesAndNames": {
+      "languages": "Lengua Común y la lengua de los Hombres del Norte (Valés).",
+      "maleNames": [
+        "Aegir", "Bain", "Bard", "Bofri", "Brand", "Dag", "Erling", "Farald", "Finn", "Gaut", "Hakon", "Ingolf", "Knut", "Leiknir", "Lomund", "Rari", "Sigurd", "Valdemar"
+      ],
+      "femaleNames": [
+        "Aldis", "Asa", "Bera", "Disa", "Eda", "Estrid", "Frida", "Geira", "Gudrun", "Halla", "Ingrid", "Kára", "Lif", "Runa", "Saldis", "Sigrid", "Thora", "Una"
+      ]
+    }
+  },
+  {
+    "name": "Enanos del Pueblo de Durin",
+    "sourceBook": "El Anillo Único 2ª Edición (Básico)",
+    "blessing": {
+      "title": "Obstinación Indomable",
+      "text": "Los enanos son resistentes a la fatiga y a los pesares. Cuando ganas puntos de Sombra por cualquier fuente que no sea tu propia Senda de la Sombra, puedes ignorar el aumento."
+    },
+    "shadowPath": {
+      "title": "La maldición del dragón",
+      "text": "Un enano poseído por la maldición de su raza anhela acaparar toda la riqueza posible y es reticente a gastar o compartir."
+    },
+    "standardOfLiving": "Próspero",
+    "attributesTable": [
+      { "roll": 1, "strength": 7, "heart": 2, "mind": 5 },
+      { "roll": 2, "strength": 7, "heart": 3, "mind": 4 },
+      { "roll": 3, "strength": 6, "heart": 3, "mind": 5 },
+      { "roll": 4, "strength": 6, "heart": 4, "mind": 4 },
+      { "roll": 5, "strength": 5, "heart": 4, "mind": 5 },
+      { "roll": 6, "strength": 6, "heart": 2, "mind": 6 }
+    ],
+    "derivedStats": {
+      "endurance": "Fuerza + 22",
+      "hope": "Corazón + 8",
+      "parry": "Mente + 10"
+    },
+    "skills": {
+      "alentar": 0,
+      "atletismo": 0,
+      "alerta": 0,
+      "explorar": 2,
+      "cantar": 1,
+      "cortesia": 0,
+      "cazar": 0,
+      "viajar": 3,
+      "perspicacia": 0,
+      "curar": 0,
+      "impresionar": 2,
+      "guerrear": 1,
+      "persuadir": 0,
+      "sigilo": 0,
+      "inspeccionar": 2,
+      "acertijos": 1,
+      "saber": 1,
+      "oficio": 3
+    },
+    "favoredSkillsChoices": "Elige dos habilidades de la lista de tus habilidades de cultura.",
+    "combatProficiencies": {
+      "1": "Hachas o Espadas",
+      "2": "Una competencia de combate a elegir"
+    },
+    "distinctiveFeatures": [
+      "Cauteloso", "Decidido", "Fiero", "Orgulloso", "Reservado", "Severo", "Tenaz", "Vengativo"
+    ],
+    "languagesAndNames": {
+      "languages": "Lengua Común y Khuzdul (Lengua secreta).",
+      "maleNames": [
+        "Balin", "Bifur", "Bofur", "Bombur", "Dori", "Dwalin", "Fili", "Gloin", "Kili", "Nori", "Oin", "Ori", "Thorin"
+      ],
+      "femaleNames": [
+        "Dís", "Hygd", "Hervör", "Kára", "Sigrún", "Sváfa", "Alvíss", "Bera"
+      ]
+    }
+  },
+  {
+    "name": "Elfos de Lindon",
+    "sourceBook": "El Anillo Único 2ª Edición (Básico)",
+    "blessing": {
+      "title": "Virtud Élfica",
+      "text": "Los elfos no envejecen ni enferman. Cuando haces una tirada usando una habilidad en la que tienes al menos 1 rango, si sacas un ícono de Gandalf en el dado de proeza, puedes gastar 1 punto de Esperanza para obtener un éxito mágico."
+    },
+    "shadowPath": {
+      "title": "Desvanecimiento",
+      "text": "A medida que los Elfos acumulan penas, la llamada del Mar se hace más fuerte. Suelen volverse distantes y fríos."
+    },
+    "standardOfLiving": "Adecuado",
+    "attributesTable": [
+      { "roll": 1, "strength": 5, "heart": 2, "mind": 7 },
+      { "roll": 2, "strength": 4, "heart": 3, "mind": 7 },
+      { "roll": 3, "strength": 5, "heart": 3, "mind": 6 },
+      { "roll": 4, "strength": 4, "heart": 4, "mind": 6 },
+      { "roll": 5, "strength": 5, "heart": 4, "mind": 5 },
+      { "roll": 6, "strength": 6, "heart": 2, "mind": 6 }
+    ],
+    "derivedStats": {
+      "endurance": "Fuerza + 20",
+      "hope": "Corazón + 6",
+      "parry": "Mente + 12"
+    },
+    "skills": {
+      "alentar": 0,
+      "atletismo": 2,
+      "alerta": 2,
+      "explorar": 0,
+      "cantar": 2,
+      "cortesia": 1,
+      "cazar": 0,
+      "viajar": 0,
+      "perspicacia": 1,
+      "curar": 1,
+      "impresionar": 0,
+      "guerrear": 1,
+      "persuadir": 0,
+      "sigilo": 2,
+      "inspeccionar": 0,
+      "acertijos": 0,
+      "saber": 3,
+      "oficio": 1
+    },
+    "favoredSkillsChoices": "Elige dos habilidades de la lista de tus habilidades de cultura.",
+    "combatProficiencies": {
+      "1": "Arcos o Lanzas",
+      "2": "Una competencia de combate a elegir"
+    },
+    "distinctiveFeatures": [
+      "Altivo", "Bello", "Cauteloso", "Elegante", "Hermético", "Justo", "Misterioso", "Paciente"
+    ],
+    "languagesAndNames": {
+      "languages": "Lengua Común y Sindarin.",
+      "maleNames": [
+        "Amdír", "Círdan", "Daeron", "Edrahil", "Erestor", "Galdor", "Galion", "Gildor", "Haldir", "Legolas", "Lindir", "Mablung", "Oropher", "Thranduil"
+      ],
+      "femaleNames": [
+        "Arwen", "Celebrían", "Elwing", "Finduilas", "Galadriel", "Idril", "Lúthien", "Míriel", "Nimloth", "Nimrodel"
+      ]
+    }
+  },
+  {
+    "name": "Hobbits de la Comarca",
+    "sourceBook": "El Anillo Único 2ª Edición (Básico)",
+    "blessing": {
+      "title": "Sentido Común Hobbit",
+      "text": "Los Hobbits son prácticos y resistentes a la corrupción de forma asombrosa. Cuando ganas 1 o más puntos de Sombra por una tirada fallida o similar, reduce la ganancia en 1 punto (hasta un mínimo de 0)."
+    },
+    "shadowPath": {
+      "title": "Viajero Extraviado",
+      "text": "Aquellos Hobbits que salen de aventuras pueden perder su aprecio por la sencillez del hogar, volviéndose ansiosos, temerosos o retraídos."
+    },
+    "standardOfLiving": "Adecuado",
+    "attributesTable": [
+      { "roll": 1, "strength": 3, "heart": 6, "mind": 5 },
+      { "roll": 2, "strength": 3, "heart": 7, "mind": 4 },
+      { "roll": 3, "strength": 2, "heart": 7, "mind": 5 },
+      { "roll": 4, "strength": 4, "heart": 6, "mind": 4 },
+      { "roll": 5, "strength": 4, "heart": 5, "mind": 5 },
+      { "roll": 6, "strength": 2, "heart": 6, "mind": 6 }
+    ],
+    "derivedStats": {
+      "endurance": "Fuerza + 18",
+      "hope": "Corazón + 10",
+      "parry": "Mente + 10"
+    },
+    "skills": {
+      "alentar": 0,
+      "atletismo": 0,
+      "alerta": 2,
+      "explorar": 0,
+      "cantar": 1,
+      "cortesia": 3,
+      "cazar": 0,
+      "viajar": 0,
+      "perspicacia": 2,
+      "curar": 0,
+      "impresionar": 0,
+      "guerrear": 0,
+      "persuadir": 2,
+      "sigilo": 3,
+      "inspeccionar": 0,
+      "acertijos": 2,
+      "saber": 0,
+      "oficio": 1
+    },
+    "favoredSkillsChoices": "Elige dos habilidades de la lista de tus habilidades de cultura.",
+    "combatProficiencies": {
+      "1": "Arcos o Espadas Cortas",
+      "2": "Una competencia de combate a elegir"
+    },
+    "distinctiveFeatures": [
+      "Amable", "Dedicado", "Fiel", "Honrado", "Inquisitivo", "Rústico", "Sencillo", "Tranquilo"
+    ],
+    "languagesAndNames": {
+      "languages": "Lengua Común.",
+      "maleNames": [
+        "Bilbo", "Frodo", "Sam", "Merry", "Pippin", "Bandobras", "Bungo", "Drogo", "Gaffer", "Hamfast", "Lotho", "Mungo", "Odo", "Otho", "Paladin"
+      ],
+      "femaleNames": [
+        "Belladonna", "Camellia", "Daisy", "Eglantine", "Lobelia", "Marigold", "May", "Myrtle", "Pansy", "Peony", "Primula", "Rose", "Ruby"
+      ]
+    }
+  },
+  {
+    "name": "Hombres de Bree",
+    "sourceBook": "El Anillo Único 2ª Edición (Básico)",
+    "blessing": {
+      "title": "Corazón Afable",
+      "text": "Los habitantes de Bree son acogedores. Cuando estás descansando en una posada u otro refugio seguro, recuperas 1 punto adicional de Esperanza o de Aguante, a tu elección."
+    },
+    "shadowPath": {
+      "title": "Sospecha y Miedo",
+      "text": "El peligro de la naturaleza salvaje aterra a los de Bree, volviéndolos paranoicos, mezquinos o traicioneros en su desespero."
+    },
+    "standardOfLiving": "Adecuado",
+    "attributesTable": [
+      { "roll": 1, "strength": 4, "heart": 5, "mind": 5 },
+      { "roll": 2, "strength": 5, "heart": 4, "mind": 5 },
+      { "roll": 3, "strength": 5, "heart": 5, "mind": 4 },
+      { "roll": 4, "strength": 4, "heart": 6, "mind": 4 },
+      { "roll": 5, "strength": 6, "heart": 4, "mind": 4 },
+      { "roll": 6, "strength": 3, "heart": 6, "mind": 5 }
+    ],
+    "derivedStats": {
+      "endurance": "Fuerza + 20",
+      "hope": "Corazón + 10",
+      "parry": "Mente + 10"
+    },
+    "skills": {
+      "alentar": 0,
+      "atletismo": 0,
+      "alerta": 1,
+      "explorar": 0,
+      "cantar": 1,
+      "cortesia": 2,
+      "cazar": 0,
+      "viajar": 1,
+      "perspicacia": 2,
+      "curar": 1,
+      "impresionar": 0,
+      "guerrear": 0,
+      "persuadir": 2,
+      "sigilo": 1,
+      "inspeccionar": 1,
+      "acertijos": 1,
+      "saber": 0,
+      "oficio": 2
+    },
+    "favoredSkillsChoices": "Elige dos habilidades de la lista de tus habilidades de cultura.",
+    "combatProficiencies": {
+      "1": "Hachas o Lanzas",
+      "2": "Una competencia de combate a elegir"
+    },
+    "distinctiveFeatures": [
+      "Amable", "Inquisitivo", "Leal", "Práctico", "Rústico", "Sincero", "Sociable", "Veraz"
+    ],
+    "languagesAndNames": {
+      "languages": "Lengua Común.",
+      "maleNames": [
+        "Barliman", "Bill", "Bob", "Dirk", "Harry", "Mat", "Nob", "Rowlie", "Tom", "Will"
+      ],
+      "femaleNames": [
+        "Agnes", "Alice", "Daisy", "Joan", "Minnie", "Nell", "Rose", "Sal", "Tess"
+      ]
+    }
+  },
+  {
+    "name": "Montaraces del Norte",
+    "sourceBook": "El Anillo Único 2ª Edición (Básico)",
+    "blessing": {
+      "title": "Fuerza de los Reyes",
+      "text": "Por sus venas corre sangre de reyes de antaño. En lugar de gastar 1 punto de Esperanza para ganar un bonificador de 1d6 a una tirada, un Montaraz puede elegir añadir un éxito directo (el equivalente a un 6) a la tirada si esta no resulta en fallo automático."
+    },
+    "shadowPath": {
+      "title": "Locura Ambulante",
+      "text": "La larga y solitaria lucha contra el enemigo pasa factura, oscureciendo sus corazones con desesperación o llevándolos al aislamiento extremo."
+    },
+    "standardOfLiving": "Exiguo",
+    "attributesTable": [
+      { "roll": 1, "strength": 7, "heart": 5, "mind": 2 },
+      { "roll": 2, "strength": 6, "heart": 5, "mind": 3 },
+      { "roll": 3, "strength": 6, "heart": 6, "mind": 2 },
+      { "roll": 4, "strength": 5, "heart": 6, "mind": 3 },
+      { "roll": 5, "strength": 5, "heart": 7, "mind": 2 },
+      { "roll": 6, "strength": 7, "heart": 4, "mind": 3 }
+    ],
+    "derivedStats": {
+      "endurance": "Fuerza + 22",
+      "hope": "Corazón + 6",
+      "parry": "Mente + 14"
+    },
+    "skills": {
+      "alentar": 0,
+      "atletismo": 2,
+      "alerta": 2,
+      "explorar": 2,
+      "cantar": 0,
+      "cortesia": 0,
+      "cazar": 2,
+      "viajar": 2,
+      "perspicacia": 0,
+      "curar": 1,
+      "impresionar": 1,
+      "guerrear": 1,
+      "persuadir": 0,
+      "sigilo": 2,
+      "inspeccionar": 1,
+      "acertijos": 0,
+      "saber": 1,
+      "oficio": 0
+    },
+    "favoredSkillsChoices": "Elige dos habilidades de la lista de tus habilidades de cultura.",
+    "combatProficiencies": {
+      "1": "Espadas o Lanzas",
+      "2": "Una competencia de combate a elegir"
+    },
+    "distinctiveFeatures": [
+      "Audaz", "Cauteloso", "Decidido", "Reservado", "Severo", "Silencioso", "Temible", "Tenaz"
+    ],
+    "languagesAndNames": {
+      "languages": "Lengua Común y Sindarin.",
+      "maleNames": [
+        "Aragorn", "Arathorn", "Arador", "Argonui", "Arassuil", "Arahad", "Halbarad", "Dírhael"
+      ],
+      "femaleNames": [
+        "Gilraen", "Ivorwen", "Lothíriel", "Morwen", "Fíriel"
+      ]
+    }
+  }
+]

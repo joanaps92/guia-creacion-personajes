@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  background-color: #faf5eb;
+  color: #3d3531;
+  font-family: 'Lora', serif;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cinzel', serif;
+}
+
+.text-crimson {
+  color: #cc3333 !important;
+}
