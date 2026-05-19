@@ -1,5 +1,8 @@
 [variables]
 NIXPACKS_NODE_VERSION = '22.14.0'
 
-[static]
-staticDist = 'dist/gui-personajes/browser'
+[phases.build]
+cmds = ['npm ci', 'npm run build']
+
+[start]
+cmd = 'npx oasislabs/http-server dist/gui-personajes/browser --port 80'
