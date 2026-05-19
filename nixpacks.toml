@@ -2,4 +2,4 @@
 NIXPACKS_NODE_VERSION = '22.14.0'
 
 [start]
-cmd = 'npx oasislabs/http-server dist/gui-personajes/browser --port 80'
+cmd = 'npx http-server dist/gui-personajes/browser -p 80 -g --cors -P http://localhost:80?'
