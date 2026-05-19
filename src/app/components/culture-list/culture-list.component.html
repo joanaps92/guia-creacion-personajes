@@ -20,11 +20,19 @@
     <h4 class="mt-3 text-muted">Buscando en los archivos de Rivendel...</h4>
   </div>
 
-  <div class="row justify-content-center" *ngIf="!loading">
-    <div class="col-12 col-xl-10">
-      <div *ngFor="let culture of cultures">
-        <app-culture-card [culture]="culture" [baseNO]="isStriderMode ? 18 : 20"></app-culture-card>
-      </div>
+  <div class="row justify-content-center mb-5" *ngIf="!loading">
+    <div class="col-12 col-md-8 col-lg-6 text-center">
+      <label for="cultureSelect" class="form-label fw-bold mb-3" style="color: #cc3333; font-family: 'Cinzel', serif; font-size: 1.5rem;">Selecciona una Cultura</label>
+      <select id="cultureSelect" class="form-select form-select-lg shadow-sm text-center custom-select-parchment py-3" [(ngModel)]="selectedCulture">
+        <option [ngValue]="null" disabled selected>Elige una cultura para ver sus detalles...</option>
+        <option *ngFor="let culture of cultures" [ngValue]="culture">{{culture.name}}</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="row justify-content-center" *ngIf="!loading && selectedCulture">
+    <div class="col-12 col-xl-10 fade-in">
+      <app-culture-card [culture]="selectedCulture" [baseNO]="isStriderMode ? 18 : 20"></app-culture-card>
     </div>
   </div>
 </div>

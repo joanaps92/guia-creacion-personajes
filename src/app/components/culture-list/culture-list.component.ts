@@ -1,5 +1,6 @@
 import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 import { CultureService } from '../../services/culture.service';
 import { Culture } from '../../models/culture.model';
 import { CultureCardComponent } from '../culture-card/culture-card.component';
@@ -7,12 +8,13 @@ import { CultureCardComponent } from '../culture-card/culture-card.component';
 @Component({
   selector: 'app-culture-list',
   standalone: true,
-  imports: [CommonModule, CultureCardComponent],
+  imports: [CommonModule, FormsModule, CultureCardComponent],
   templateUrl: './culture-list.component.html',
   styleUrls: ['./culture-list.component.css']
 })
 export class CultureListComponent implements OnInit {
   cultures: Culture[] = [];
+  selectedCulture: Culture | null = null;
   loading = true;
   isStriderMode = false;
 

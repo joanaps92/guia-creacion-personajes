@@ -19,3 +19,29 @@
 .text-crimson {
   color: #cc3333 !important;
 }
+
+.custom-select-parchment {
+  border: 2px solid #d9d0c1;
+  background-color: #fcf9f2;
+  color: #3d3531;
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1.2rem;
+}
+
+.custom-select-parchment:focus {
+  border-color: #cc3333;
+  box-shadow: 0 0 0 0.25rem rgba(204, 51, 51, 0.25);
+  outline: none;
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
