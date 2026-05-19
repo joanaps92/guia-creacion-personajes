@@ -1,4 +1,8 @@
 [variables]
 NIXPACKS_NODE_VERSION = '22.14.0'
+
+[phases.build]
+cmds = ['npm ci', 'npm run build']
+
 [static]
-staticDist = "dist/gui-personajes/browser"
+staticDist = 'dist/gui-personajes/browser'
