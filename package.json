@@ -1,6 +1,9 @@
 {
   "name": "gui-personajes",
   "version": "0.0.0",
+  "engines": {
+    "node": "22.14.0"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
