@@ -35,7 +35,7 @@ export interface Culture {
     acertijos: number;
     saber: number;
   };
-  favoredSkillsChoices: string;
+  favoredSkillsChoices: string[];
   combatProficiencies: {
     1: string;
     2: string;
