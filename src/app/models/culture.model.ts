@@ -3,6 +3,10 @@ export interface Culture {
   sourceBook: string;
   blessing: { title: string; text: string };
   shadowPath: { title: string; text: string };
+  virtues?: Array<{
+    title: string;
+    text: string;
+  }>;
   standardOfLiving: string;
   attributesTable: Array<{
     roll: number;

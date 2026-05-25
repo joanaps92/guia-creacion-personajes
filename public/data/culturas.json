@@ -649,49 +649,49 @@
     "sourceBook": "El Anillo Único 2ª Edición (Básico)",
     "blessing": {
       "title": "Corazón Afable",
-      "text": "Los habitantes de Bree son acogedores. Cuando estás descansando en una posada u otro refugio seguro, recuperas 1 punto adicional de Esperanza o de Aguante, a tu elección."
+      "text": "Cada hombre de Bree en la compañía incrementa la puntuación de Comunidad en 1 punto."
     },
     "shadowPath": {
-      "title": "Sospecha y Miedo",
-      "text": "El peligro de la naturaleza salvaje aterra a los de Bree, volviéndolos paranoicos, mezquinos o traicioneros en su desespero."
+      "title": "",
+      "text": ""
     },
-    "standardOfLiving": "Adecuado",
+    "standardOfLiving": "Común",
     "attributesTable": [
       {
         "roll": 1,
-        "strength": 4,
+        "strength": 2,
         "heart": 5,
-        "mind": 5
+        "mind": 7
       },
       {
         "roll": 2,
-        "strength": 5,
+        "strength": 3,
         "heart": 4,
-        "mind": 5
+        "mind": 7
       },
       {
         "roll": 3,
-        "strength": 5,
+        "strength": 3,
         "heart": 5,
-        "mind": 4
+        "mind": 6
       },
       {
         "roll": 4,
         "strength": 4,
-        "heart": 6,
-        "mind": 4
+        "heart": 4,
+        "mind": 6
       },
       {
         "roll": 5,
-        "strength": 6,
-        "heart": 4,
-        "mind": 4
+        "strength": 4,
+        "heart": 5,
+        "mind": 5
       },
       {
         "roll": 6,
-        "strength": 3,
+        "strength": 2,
         "heart": 6,
-        "mind": 5
+        "mind": 6
       }
     ],
     "derivedStats": {
@@ -700,27 +700,27 @@
       "parry": "Mente + 10"
     },
     "skills": {
-      "alentar": 0,
-      "atletismo": 0,
+      "alentar": 2,
+      "atletismo": 1,
       "alerta": 1,
-      "explorar": 0,
+      "explorar": 1,
       "cantar": 1,
-      "cortesia": 2,
-      "cazar": 0,
+      "cortesia": 3,
+      "cazar": 1,
       "viajar": 1,
       "perspicacia": 2,
-      "curar": 1,
+      "curar": 0,
       "impresionar": 0,
       "guerrear": 0,
       "persuadir": 2,
       "sigilo": 1,
       "inspeccionar": 1,
-      "acertijos": 1,
+      "acertijos": 2,
       "saber": 0,
       "oficio": 2
     },
     "favoredSkillsChoices": [
-      "Cortesía",
+      "Acertijos",
       "Perspicacia"
     ],
     "combatProficiencies": {
@@ -728,39 +728,52 @@
       "2": "Hachas o Lanzas"
     },
     "distinctiveFeatures": [
-      "Amable",
+      "Astuto",
+      "Bien hablado",
+      "Fiel",
+      "Generoso",
       "Inquisitivo",
-      "Leal",
-      "Práctico",
+      "Paciente",
       "Rústico",
-      "Sincero",
-      "Sociable",
-      "Veraz"
+      "Sincero"
     ],
     "languagesAndNames": {
       "languages": "Lengua Común.",
       "maleNames": [
-        "Barliman",
+        "Alfredo",
+        "Artu",
         "Bill",
         "Bob",
-        "Dirk",
-        "Harry",
-        "Mat",
+        "Carlos",
+        "Edu",
+        "Enrique",
+        "Fredo",
+        "Guille",
+        "Herbe",
+        "Loren",
         "Nob",
-        "Rowlie",
-        "Tom",
-        "Will"
+        "Osvaldo",
+        "Pere",
+        "Persio",
+        "Sid",
+        "Tom"
       ],
       "femaleNames": [
-        "Agnes",
-        "Alice",
-        "Daisy",
-        "Joan",
-        "Minnie",
-        "Nell",
-        "Rose",
-        "Sal",
-        "Tess"
+        "Ada",
+        "Amapola",
+        "Emma",
+        "Flora",
+        "Gertru",
+        "Hele",
+        "Lila",
+        "Margarita",
+        "Mirta",
+        "Queta",
+        "Rosa",
+        "Sacra",
+        "Salvia",
+        "Tilda",
+        "Violeta"
       ]
     }
   },
@@ -768,14 +781,14 @@
     "name": "Montaraces del Norte",
     "sourceBook": "El Anillo Único 2ª Edición (Básico)",
     "blessing": {
-      "title": "Fuerza de los Reyes",
-      "text": "Por sus venas corre sangre de reyes de antaño. En lugar de gastar 1 punto de Esperanza para ganar un bonificador de 1d6 a una tirada, un Montaraz puede elegir añadir un éxito directo (el equivalente a un 6) a la tirada si esta no resulta en fallo automático."
+      "title": "Reyes de los hombres",
+      "text": "Suma 1 punto a un atributo de tu elección."
     },
     "shadowPath": {
-      "title": "Locura Ambulante",
-      "text": "La larga y solitaria lucha contra el enemigo pasa factura, oscureciendo sus corazones con desesperación o llevándolos al aislamiento extremo."
+      "title": "Lealtad de los Dúnedain",
+      "text": "Durante una fase de comunidad (no Yule) recuperas un número máximo de puntos de Esperanza igual a la mitad de tu puntuación de CORAZÓN (redondeando las fracciones al alza)."
     },
-    "standardOfLiving": "Exiguo",
+    "standardOfLiving": "Frugal",
     "attributesTable": [
       {
         "roll": 1,
@@ -785,43 +798,43 @@
       },
       {
         "roll": 2,
+        "strength": 7,
+        "heart": 4,
+        "mind": 5
+      },
+      {
+        "roll": 3,
         "strength": 6,
         "heart": 5,
         "mind": 3
       },
       {
-        "roll": 3,
-        "strength": 6,
-        "heart": 6,
-        "mind": 2
-      },
-      {
         "roll": 4,
-        "strength": 5,
-        "heart": 6,
-        "mind": 3
+        "strength": 6,
+        "heart": 4,
+        "mind": 4
       },
       {
         "roll": 5,
         "strength": 5,
-        "heart": 7,
-        "mind": 2
+        "heart": 5,
+        "mind": 4
       },
       {
         "roll": 6,
-        "strength": 7,
-        "heart": 4,
-        "mind": 3
+        "strength": 6,
+        "heart": 6,
+        "mind": 2
       }
     ],
     "derivedStats": {
-      "endurance": "Fuerza + 22",
+      "endurance": "Fuerza + 20",
       "hope": "Corazón + 6",
       "parry": "Mente + 14"
     },
     "skills": {
       "alentar": 0,
-      "atletismo": 2,
+      "atletismo": 1,
       "alerta": 2,
       "explorar": 2,
       "cantar": 0,
@@ -829,18 +842,18 @@
       "cazar": 2,
       "viajar": 2,
       "perspicacia": 0,
-      "curar": 1,
+      "curar": 2,
       "impresionar": 1,
-      "guerrear": 1,
+      "guerrear": 2,
       "persuadir": 0,
       "sigilo": 2,
       "inspeccionar": 1,
       "acertijos": 0,
-      "saber": 1,
+      "saber": 2,
       "oficio": 0
     },
     "favoredSkillsChoices": [
-      "Explorar",
+      "Saber",
       "Cazar"
     ],
     "combatProficiencies": {
@@ -848,34 +861,499 @@
       "2": "Espadas o Lanzas"
     },
     "distinctiveFeatures": [
-      "Audaz",
-      "Cauteloso",
-      "Decidido",
+      "Alto",
+      "Arrojado",
+      "Honorable",
+      "Rápido",
       "Reservado",
       "Severo",
-      "Silencioso",
-      "Temible",
-      "Tenaz"
+      "Sincero",
+      "Sutil"
     ],
     "languagesAndNames": {
       "languages": "Lengua Común y Sindarin.",
       "maleNames": [
-        "Aragorn",
-        "Arathorn",
-        "Arador",
-        "Argonui",
-        "Arassuil",
-        "Arahad",
-        "Halbarad",
-        "Dírhael"
+        "Adrahil",
+        "Amlaith",
+        "Arvegil",
+        "Baranor",
+        "Belecthor",
+        "Bergil",
+        "Celepharn",
+        "Cirion",
+        "Damrod",
+        "Dírhael",
+        "Duinhir",
+        "Egalmoth",
+        "Eradan",
+        "Findemir",
+        "Forlong",
+        "Golasdan",
+        "Hallas",
+        "Hirluin",
+        "Ingold",
+        "Iorlas",
+        "Malvegil",
+        "Ohtar",
+        "Orodreth",
+        "Tarannon",
+        "Targon"
       ],
       "femaleNames": [
+        "Anwen",
+        "Arbereth",
+        "Berúthiel",
+        "Baraniel",
+        "Calanril",
+        "Celenneth",
+        "Elnîth",
+        "Eraniel",
+        "Finduilas",
         "Gilraen",
+        "Gilraeth",
+        "Gloredhel",
+        "Idril",
+        "Ioreth",
         "Ivorwen",
+        "Lôrwend",
         "Lothíriel",
+        "Luindîs",
+        "Meneloth",
+        "Moriel",
         "Morwen",
-        "Fíriel"
+        "Narieth",
+        "Narniel",
+        "Orothêl",
+        "Tarandîs"
       ]
+    }
+  },
+  {
+    "name": "Elfos de Lórien",
+    "sourceBook": "El Reino de los Tres Anillos",
+    "blessing": {
+      "title": "Gentes de los Árboles",
+      "text": "Cuando estás en un bosque, o cuando usas una habilidad asociada con un objeto útil, puedes usar 1 punto de Esperanza para lograr un éxito mágico. Además, comienzas el juego con 1 objeto útil más."
+    },
+    "shadowPath": {
+      "title": "El favor de la Dama",
+      "text": "Aumenta en 1 punto tu puntuación máxima de Esperanza. Además, durante cada fase de comunidad, puedes regresar a Lórien o bien anotar 1 punto de Sombra para recuperar el doble de puntos de Esperanza de lo habitual."
+    },
+    "virtues": [
+      {
+        "title": "Contra lo invisible",
+        "text": "Percibes a las criaturas del mundo de los espectros. Sumas 1d a las tiradas de Sombra por pavor son favorecidas y a las tiradas forzadas por espíritus malignos o fantasmas."
+      },
+      {
+        "title": "Disparos en la oscuridad",
+        "text": "Si estás en un bosque, o si es de noche, estás Inspirado en todas tus tiradas de combate."
+      },
+      {
+        "title": "Lembas",
+        "text": "Si has pasado la última fase de comunidad en Lórien, reduces en 1 la fatiga impuesta por acontecimientos de viaje. Además, la compañía puede gastar 1 punto de Esperanza para anular por completo una imposición de fatiga."
+      },
+      {
+        "title": "Arco de los galadrim",
+        "text": "Tu arco de galadrim se considera arco a efectos de Tiro con arco mortal. Sumas 1d al usar Preparar disparo con ese arco y puedes gastar 1 punto de Esperanza para lograr un éxito mágico en esas tiradas."
+      },
+      {
+        "title": "Sueños élficos",
+        "text": "Mientras realizas actividades sencillas y repetitivas no necesitas dormir. Cuando tomas un descanso corto, se considera que has realizado un descanso largo."
+      },
+      {
+        "title": "Tiro con arco mortal",
+        "text": "Cuando usas un arco (no un arco largo) y luchas en posición de Retaguardia, puedes intentar la tarea de combate Preparar disparo como acción secundaria."
+      }
+    ],
+    "standardOfLiving": "Frugal",
+    "attributesTable": [
+      {
+        "roll": 1,
+        "strength": 5,
+        "heart": 2,
+        "mind": 7
+      },
+      {
+        "roll": 2,
+        "strength": 4,
+        "heart": 3,
+        "mind": 7
+      },
+      {
+        "roll": 3,
+        "strength": 5,
+        "heart": 3,
+        "mind": 6
+      },
+      {
+        "roll": 4,
+        "strength": 4,
+        "heart": 4,
+        "mind": 6
+      },
+      {
+        "roll": 5,
+        "strength": 5,
+        "heart": 4,
+        "mind": 5
+      },
+      {
+        "roll": 6,
+        "strength": 6,
+        "heart": 2,
+        "mind": 6
+      }
+    ],
+    "derivedStats": {
+      "endurance": "Fuerza + 18",
+      "hope": "Corazón + 8",
+      "parry": "Mente + 14"
+    },
+    "skills": {
+      "alentar": 0,
+      "atletismo": 2,
+      "alerta": 2,
+      "explorar": 1,
+      "cantar": 2,
+      "cortesia": 0,
+      "cazar": 1,
+      "viajar": 0,
+      "perspicacia": 0,
+      "curar": 1,
+      "impresionar": 1,
+      "guerrear": 1,
+      "persuadir": 0,
+      "sigilo": 3,
+      "inspeccionar": 2,
+      "acertijos": 0,
+      "saber": 2,
+      "oficio": 2
+    },
+    "favoredSkillsChoices": [
+      "Alerta",
+      "Cantar"
+    ],
+    "combatProficiencies": {
+      "1": "Una competencia de combate a elegir",
+      "2": "Arcos o Lanzas"
+    },
+    "distinctiveFeatures": [
+      "Alegre",
+      "Astuto",
+      "Buena vista",
+      "Hermoso",
+      "Orgulloso",
+      "Precavido",
+      "Rápido",
+      "Reservado"
+    ],
+    "languagesAndNames": {
+      "languages": "Lengua Común y Sindarin.",
+      "maleNames": [
+        "Amras",
+        "Argon",
+        "Beleganor",
+        "Belegon",
+        "Calanhir",
+        "Carmagor",
+        "Cuidir",
+        "Durandir",
+        "Edrahil",
+        "Ellahir",
+        "Fincalan",
+        "Fuindor",
+        "Galdagor",
+        "Galdor",
+        "Hallas",
+        "Hirimlad",
+        "Ithildir",
+        "Lascalan",
+        "Linaith",
+        "Mablin",
+        "Malanor",
+        "Nauros",
+        "Orgalad",
+        "Pelegorn",
+        "Sargon"
+      ],
+      "femaleNames": [
+        "Anwen",
+        "Arbereth",
+        "Baraniel",
+        "Calanril",
+        "Celenneth",
+        "Cimbereth",
+        "Elnîth",
+        "Eraniel",
+        "Finduilas",
+        "Gilraeth",
+        "Gloredhel",
+        "Ioreth",
+        "Ivorwen",
+        "Lingil",
+        "Lôrwenda",
+        "Lothíriel",
+        "Luindîs",
+        "Meneloth",
+        "Moriel",
+        "Morwen",
+        "Narieth",
+        "Narniel",
+        "Orothêl",
+        "Tavriel",
+        "Tarandîs"
+      ]
+    }
+  },
+  {
+    "name": "Altos elfos de Rivendel",
+    "sourceBook": "El Reino de los Tres Anillos",
+    "blessing": {
+      "title": "Sabiduría de los elfos",
+      "text": "Siempre que hagas una tirada de habilidad, puedes gastar 1 punto de Esperanza para lograr un éxito mágico. Además, puedes sumar 1 punto a un atributo de tu elección."
+    },
+    "shadowPath": {
+      "title": "Dolor persistente",
+      "text": "Puedes eliminar los puntos de Sombra acumulados mediante la recuperación espiritual tan solo durante una fase de comunidad de Yule."
+    },
+    "virtues": [
+      {
+        "title": "Artífice de Eregion",
+        "text": "En el próximo Yule puedes sumar una única recompensa encantada de manufactura élfica a un arma, o crear un artefacto maravilloso. Además, durante una fase de comunidad puedes realizar una tirada de Oficio o Saber para estudiar un objeto extraordinario de la compañía."
+      },
+      {
+        "title": "Belleza de las estrellas",
+        "text": "Aumenta en 1 tu puntuación máxima de Esperanza. Si eres portavoz en un concilio, aumentas el límite de tiempo en 1 o haces que todos los mortales presentes retengan solo un vago recuerdo de lo acordado."
+      },
+      {
+        "title": "Poder de los primeros nacidos",
+        "text": "Cuando un adversario usa 1 punto de Odio o Determinación para activar una aptitud terrible, puedes emplear 1 punto de Esperanza para cancelar sus efectos."
+      },
+      {
+        "title": "Talento de los Eldar",
+        "text": "Cuando obtienes una runa de Gandalf en el dado de proeza, el resultado se considera un éxito mágico sin necesidad de usar Esperanza."
+      }
+    ],
+    "standardOfLiving": "Próspero",
+    "attributesTable": [
+      {
+        "roll": 1,
+        "strength": 5,
+        "heart": 2,
+        "mind": 7
+      },
+      {
+        "roll": 2,
+        "strength": 4,
+        "heart": 3,
+        "mind": 7
+      },
+      {
+        "roll": 3,
+        "strength": 5,
+        "heart": 3,
+        "mind": 6
+      },
+      {
+        "roll": 4,
+        "strength": 4,
+        "heart": 4,
+        "mind": 6
+      },
+      {
+        "roll": 5,
+        "strength": 5,
+        "heart": 4,
+        "mind": 5
+      },
+      {
+        "roll": 6,
+        "strength": 6,
+        "heart": 2,
+        "mind": 6
+      }
+    ],
+    "derivedStats": {
+      "endurance": "Fuerza + 22",
+      "hope": "Corazón + 6",
+      "parry": "Mente + 12"
+    },
+    "skills": {
+      "alentar": 0,
+      "atletismo": 2,
+      "alerta": 2,
+      "explorar": 0,
+      "cantar": 2,
+      "cortesia": 1,
+      "cazar": 0,
+      "viajar": 1,
+      "perspicacia": 0,
+      "curar": 2,
+      "impresionar": 2,
+      "guerrear": 2,
+      "persuadir": 0,
+      "sigilo": 0,
+      "inspeccionar": 0,
+      "acertijos": 0,
+      "saber": 3,
+      "oficio": 2
+    },
+    "favoredSkillsChoices": [
+      "Alerta",
+      "Saber"
+    ],
+    "combatProficiencies": {
+      "1": "Una competencia de combate a elegir",
+      "2": "Lanzas o Espadas"
+    },
+    "distinctiveFeatures": [
+      "Alegre",
+      "Buena vista",
+      "Hermoso",
+      "Inquisitivo",
+      "Orgulloso",
+      "Señorial",
+      "Sutil",
+      "Terco"
+    ],
+    "languagesAndNames": {
+      "languages": "Lengua Común, Sindarin y Quenya.",
+      "maleNames": [
+        "Aegnor",
+        "Beleg",
+        "Celegorm",
+        "Daeron",
+        "Edrahil",
+        "Fingon",
+        "Finrod",
+        "Gwindor",
+        "Mablung",
+        "Maeglin",
+        "Orodreth",
+        "Saeros"
+      ],
+      "femaleNames": [
+        "Amarië",
+        "Ancalimë",
+        "Berúthiel",
+        "Celebrindal",
+        "Elwing",
+        "Finduilas",
+        "Fíriel",
+        "Idril",
+        "Lothíriel",
+        "Míriel",
+        "Nimrodel"
+      ]
+    }
+  },
+  {
+    "name": "Enanos de Nogrod y Belegost",
+    "sourceBook": "El Reino de los Tres Anillos",
+    "blessing": {
+      "title": "Fornido",
+      "text": "Reduces a la mitad la puntuación de Carga de cualquier armadura que llevas (redondeando al alza), incluidos los cascos (pero no los escudos)."
+    },
+    "shadowPath": {
+      "title": "Enanos mezquinos",
+      "text": "Solo puedes elegir a otro enano como vínculo de Comunidad."
+    },
+    "virtues": [
+      {
+        "title": "Fuego antiguo",
+        "text": "Aumenta tu puntuación máxima de Aguante en 1 punto. Cualquier pérdida de Aguante por frío extremo, fuego y veneno que sufras se reduce en un nivel (de muy grave a grave, de grave a moderada, de moderada a ninguna)."
+      },
+      {
+        "title": "Secretos de Telchar",
+        "text": "Durante el próximo Yule puedes añadir una única recompensa encantada de manufactura enana a una armadura de malla o arma de combate cuerpo a cuerpo de tu elección, o crear un artefacto maravilloso (a tu elección)."
+      }
+    ],
+    "standardOfLiving": "Común",
+    "attributesTable": [
+      {
+        "roll": 1,
+        "strength": 7,
+        "heart": 2,
+        "mind": 5
+      },
+      {
+        "roll": 2,
+        "strength": 7,
+        "heart": 3,
+        "mind": 4
+      },
+      {
+        "roll": 3,
+        "strength": 6,
+        "heart": 3,
+        "mind": 5
+      },
+      {
+        "roll": 4,
+        "strength": 6,
+        "heart": 4,
+        "mind": 4
+      },
+      {
+        "roll": 5,
+        "strength": 5,
+        "heart": 4,
+        "mind": 5
+      },
+      {
+        "roll": 6,
+        "strength": 6,
+        "heart": 2,
+        "mind": 6
+      }
+    ],
+    "derivedStats": {
+      "endurance": "Fuerza + 22",
+      "hope": "Corazón + 8",
+      "parry": "Mente + 10"
+    },
+    "skills": {
+      "alentar": 0,
+      "atletismo": 1,
+      "alerta": 0,
+      "explorar": 2,
+      "cantar": 1,
+      "cortesia": 0,
+      "cazar": 0,
+      "viajar": 2,
+      "perspicacia": 0,
+      "curar": 0,
+      "impresionar": 2,
+      "guerrear": 0,
+      "persuadir": 0,
+      "sigilo": 0,
+      "inspeccionar": 3,
+      "acertijos": 2,
+      "saber": 2,
+      "oficio": 3
+    },
+    "favoredSkillsChoices": [
+      "Impresionar",
+      "Oficio"
+    ],
+    "combatProficiencies": {
+      "1": "Una competencia de combate a elegir",
+      "2": "Hachas o Espadas"
+    },
+    "distinctiveFeatures": [
+      "Astuto",
+      "Fiero",
+      "Orgulloso",
+      "Precavido",
+      "Reservado",
+      "Rústico",
+      "Severo",
+      "Terco"
+    ],
+    "languagesAndNames": {
+      "languages": "Lengua Común y lengua enana.",
+      "maleNames": [],
+      "femaleNames": []
     }
   }
 ]
